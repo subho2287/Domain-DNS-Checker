@@ -1,0 +1,16 @@
+{
+  "name": "dnschecker",
+  "version": "1.0.0",
+  "description": "Real-time DNS, mail & security diagnostics — Cloudflare Pages + HTMX + Tailwind",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "wrangler": "^3.114.17"
+  }
+}
