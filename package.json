@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler pages dev public",
-    "deploy": "wrangler pages deploy public"
+    "pages:create": "wrangler pages project create domain-dns-dnschecker --production-branch=main",
+    "deploy": "wrangler pages deploy public --project-name=domain-dns-dnschecker"
   },
   "dependencies": {
     "pdf-lib": "^1.17.1"
